@@ -1,0 +1,28 @@
+import type { MinifyPngOptions } from '../types/minify-png-types';
+
+export const defaultMinifyPngOptions: Required<MinifyPngOptions> = {
+  tileSize: 8,
+  edgeThresholdColor: 18,
+  edgeThresholdAlpha: 12,
+  edgeDilateRadius: 1,
+  minUsableInteriorRatio: 0.7,
+  flatnessMaxDistance: 10,
+  flatnessP95Distance: 6,
+  flatnessAlphaRange: 6,
+  seedMinArea: 24,
+  regionColorMergeThreshold: 8,
+  regionAlphaMergeThreshold: 6,
+  gradientRejectionEnabled: true,
+  gradientMaxDirectionalDrift: 12,
+  minRegionArea: 48,
+  minRegionThickness: 3,
+  protectedEdgeDistance: 1,
+  posterizeMode: 'snap-to-median',
+  posterizeBitsPerChannel: 6,
+  preserveAlpha: true,
+  alphaMode: 'premultiplied',
+  dither: 'none',
+  outputMask: false,
+  outputDebug: false,
+  qualityMode: 'strict',
+};
