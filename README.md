@@ -1,5 +1,7 @@
 # minify-png
 
+[![npm version](https://img.shields.io/npm/v/%40vojtechportes%2Fminify-png)](https://www.npmjs.com/package/@vojtechportes/minify-png)
+
 `minify-png` is a Node.js library for reducing PNG size with a combination of:
 
 - edge-aware flat-region cleanup for screenshots, UI assets, icons, diagrams, and illustrations
@@ -30,7 +32,7 @@ PNG minification with selective flat-region optimization plus adaptive recompres
 ## Install
 
 ```bash
-npm install minify-png
+npm install @vojtechportes/minify-png
 ```
 
 `sharp` is used when available for decoding and encoding. `pngjs` is included as a fallback.
@@ -40,7 +42,7 @@ You can also opt into a system-installed `pngquant` binary for stronger PNG comp
 ## Usage
 
 ```ts
-import { encodeOptimizedPng, minifyPng } from 'minify-png';
+import { encodeOptimizedPng, minifyPng } from '@vojtechportes/minify-png';
 import { readFile, writeFile } from 'node:fs/promises';
 
 const sourceBuffer = await readFile('input.png');

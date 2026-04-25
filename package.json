@@ -1,19 +1,27 @@
 {
-  "name": "minify-png",
+  "name": "@vojtechportes/minify-png",
   "version": "0.1.0",
   "description": "Node.js PNG minification library with edge-aware flat-region optimization and photo-safe palette recompression.",
   "license": "MIT",
-  "author": {
-    "name": "Vojtěch Porteš",
-    "email": "vojtech.v.portes@gmail.com"
-  },
+  "author": "Vojtěch Porteš <vojtech.v.portes@gmail.com>",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": {
-    "minify-png": "./dist/minify-png.js"
+  "publishConfig": {
+    "access": "public"
   },
+  "bin": {
+    "minify-png": "dist/minify-png.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vojtechportes/minify-png.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vojtechportes/minify-png/issues"
+  },
+  "homepage": "https://github.com/vojtechportes/minify-png#readme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -84,5 +92,8 @@
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.30.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
