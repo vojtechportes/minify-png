@@ -1,6 +1,7 @@
 # minify-png
 
 [![npm version](https://img.shields.io/npm/v/%40vojtechportes%2Fminify-png)](https://www.npmjs.com/package/@vojtechportes/minify-png)
+[![codecov](https://codecov.io/gh/vojtechportes/minify-png/branch/main/graph/badge.svg)](https://codecov.io/gh/vojtechportes/minify-png)
 
 `minify-png` is a Node.js library for reducing PNG size with a combination of:
 
@@ -221,6 +222,7 @@ It does not try to be a full semantic image optimizer, and it is still intention
 npm test
 npm run typecheck
 npm run build
+npm run coverage
 ```
 
 To run the local sample pipeline in the `test/` folder:
@@ -261,6 +263,8 @@ npm run test:png -- --pngquant --pngquant-bin "C:\pngquant\pngquant.exe" --quali
 ```
 
 The output will tell you whether each `pngquant` candidate was unavailable, rejected by the visual checks, accepted, or ultimately selected.
+
+Coverage is uploaded from GitHub Actions to Codecov. The workflow expects a `CODECOV_TOKEN` repository secret.
 
 To try the CLI from the repository without publishing:
 

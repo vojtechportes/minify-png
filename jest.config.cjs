@@ -6,4 +6,11 @@ module.exports = {
   testMatch: ['**/*.test.ts'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/'],
   extensionsToTreatAsEsm: ['.ts'],
+  collectCoverageFrom: [
+    'src/**/*.ts',
+    '!src/**/*.test.ts',
+    '!src/types/**/*.ts',
+  ],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['json-summary', 'lcov', 'text'],
 };
