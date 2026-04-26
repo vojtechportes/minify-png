@@ -1,6 +1,6 @@
 {
   "name": "@vojtechportes/minify-png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js PNG minification library with edge-aware flat-region optimization and photo-safe palette recompression.",
   "license": "MIT",
   "author": "Vojtěch Porteš <vojtech.v.portes@gmail.com>",
