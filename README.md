@@ -1,8 +1,6 @@
+![Minify PNG logo](https://github.com/vojtechportes/minify-png/blob/main/logo.png)
 # minify-png
 
-<div align="center">
-![Minify PNG logo](https://github.com/vojtechportes/minify-png/blob/main/logo.png)
-</div>
 
 [![npm version](https://img.shields.io/npm/v/%40vojtechportes%2Fminify-png)](https://www.npmjs.com/package/@vojtechportes/minify-png)
 [![codecov](https://codecov.io/gh/vojtechportes/minify-png/branch/main/graph/badge.svg)](https://codecov.io/gh/vojtechportes/minify-png)
