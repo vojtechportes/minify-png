@@ -1,4 +1,4 @@
-![Minify PNG logo](https://github.com/vojtechportes/minify-png/blob/main/logo.png)
+<img src="https://github.com/vojtechportes/minify-png/blob/main/logo.png" />
 # minify-png
 
 
